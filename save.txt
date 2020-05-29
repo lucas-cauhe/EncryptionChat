@@ -1,0 +1,22 @@
+Loggin system for the socket server
+
+
+//server side
+  socket.on('app', (data, callback) => {
+    if (data.to in json['users']){
+      callback(true);
+    } else{
+      callback(false);
+    };
+  });
+
+// client side
+
+
+          socket.emit('app', {to: $('#to').val()}, (cb) => {
+            if (cb){
+              console.log('Valid users');
+            } else{
+              throw 'Invalid sender or receiver';
+            };
+          });

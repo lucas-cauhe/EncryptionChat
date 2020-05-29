@@ -1,0 +1,34 @@
+{
+   "users": {
+      "lucas": {
+         "nombre": "lucas",
+         "email": "lucas",
+         "api": "http://localhost:3000/usuario?id=f033b00c-04f8-445e-8845-906e5c867bde",
+         "id": "f033b00c-04f8-445e-8845-906e5c867bde",
+         "keys": {
+            "private_key": "\u00ed\u00ca\u00dc\u0094\u00f09|\u00f7\u0094\u009f\u00d8\u00ces\u00d6kF\u00e3`a\u0086#d\u0012_O\u007fdd\u00b7\u00cf\u00a2\u00a7",
+            "public_key": "M\u001dn\u0098\u00e2\u00b8\u00c0\u0005S\u00ff\u00a2\u0090v\u00c91\u008bu{\b\u00af\u00c1\u00e7\"\u0095\f\b)Qwa\u007f\u00dc"
+         },
+         "loaded_keys": {
+            "loaded_private_key": "<cryptography.hazmat.backends.openssl.ed25519._Ed25519PrivateKey object at 0x035B5470>",
+            "loaded_public_key": "<cryptography.hazmat.backends.openssl.ed25519._Ed25519PublicKey object at 0x035B5470>"
+         },
+         "certificates": "<bound method genKeys.certificates of <encryption.genKeys object at 0x039CA1F0>>"
+      },
+      "lc": {
+         "nombre": "lc",
+         "email": "lc",
+         "api": "http://localhost:3000/usuario?id=927bc746-0976-45c0-95c8-bd2a63be51f5",
+         "id": "927bc746-0976-45c0-95c8-bd2a63be51f5",
+         "keys": {
+            "private_key": "\u0013o\u0087+~\u0005!\u008f\u00a2'UJYr]Z\u000e7\u0095\u00a5\u00bb\u00c0\u008a\u0086)\u00fa\u00b0X\u00af\r\u00e6'",
+            "public_key": "\tg\f$J\u0007\u00d7\u008aqT\u001dNR\u00f6\u0086+I\u0096\u0010a\u00f1&\u00c7\u00b7Dh[\u00dag`\u00c9\u00f2"
+         },
+         "loaded_keys": {
+            "loaded_private_key": "<cryptography.hazmat.backends.openssl.ed25519._Ed25519PrivateKey object at 0x042E2DB0>",
+            "loaded_public_key": "<cryptography.hazmat.backends.openssl.ed25519._Ed25519PublicKey object at 0x042E2DB0>"
+         },
+         "certificates": "<bound method genKeys.certificates of <encryption.genKeys object at 0x040DA1F0>>"
+      }
+   }
+}
